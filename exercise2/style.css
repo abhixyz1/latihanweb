@@ -24,6 +24,11 @@ body {
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 5px;
+    transition: 0.7s;
+}
+.header i:hover{
+    color: lightblue;
+    background-color: #000000;
 }
 
 .header img{
@@ -109,16 +114,24 @@ td{
 
   .warning {
     background-color: #e74c3c;
-    padding: 1rem;
+    font-family: monospace;
+    line-height: 1.5;
+    padding: 0.4rem;
     color: #fff;
     font-size: 1.5rem;
-    margin: 1.5rem auto;
-    max-width: 50%;
-    border-radius: 8px;
+    margin: 1rem auto;
+    margin-bottom: 1.8rem;
+    max-width: 40%;
+    border-radius: 20px;
     text-align: center;
+    transition: transform 0.5s ease-out;
+  }
+  .warning:hover{
+    transform: scale(1.2);
   }
 
   .payment {
+    font-family: monospace;
     display: flex;
     align-items: center;
     justify-content: center; /* Menjaga agar semuanya berada di tengah */
@@ -149,8 +162,13 @@ td{
 
   .footer {
     text-align: center;
-    margin: 3rem 0;
+    margin: 1.5rem 0;
     font-size: 1.5rem;
+  }
+
+  .footer a{
+    color: #3498db;
+    text-decoration: none;
   }
 
   .footer p {
