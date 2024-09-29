@@ -80,7 +80,7 @@ td{
     flex: 1 1 550px;
     max-width: 100%;
     text-align: center;
-    margin: 2rem;
+    margin: 1rem;
     padding: 1rem;
     border-radius: 10px;
     background-color: #2c3e50;
@@ -94,8 +94,8 @@ td{
 
   .section img {
 
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     border: 4px solid white;
     object-fit: cover;
@@ -109,7 +109,7 @@ td{
   .section table {
     font-family: monospace;
     position: inherit;
-    width: 80%;
+    width: 100%;
     margin: 1rem auto;
     border-collapse: collapse;
     font-size: 1rem;
@@ -167,6 +167,7 @@ td{
     color: #ffffff;
     background-color: #3498db;
     padding: 0.8%;
+    max-width: 100%;
 }
 
 .payment-logos {
@@ -191,6 +192,7 @@ td{
     text-align: center;
     margin: 1.5rem 0;
     font-size: 1.5rem;
+    
   }
 
   .footer a{
@@ -200,7 +202,7 @@ td{
 
   .footer p {
     margin: 0.5rem 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:monospace;
   }
 
   @media only screen and (max-width: 768px) {
