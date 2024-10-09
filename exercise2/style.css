@@ -192,7 +192,7 @@ td{
     text-align: center;
     margin: 1.5rem 0;
     font-size: 1.5rem;
-    
+    word-spacing: 20px;
   }
 
   .footer a{
@@ -213,4 +213,5 @@ td{
     .section table {
       width: 100%;
     }
+      
   }
