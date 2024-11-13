@@ -151,8 +151,8 @@ hr {
 
 .payment-logos {
   display: flex;
-  gap: 1rem;
-  margin-left: 1rem;
+  gap: 2.7rem;
+  margin-left: 2rem;
 }
 
 .payment img {
