@@ -178,8 +178,8 @@ td{
 
 .payment img {
     border-radius: 10%;
-    width: 60px; /* Ukuran logo */
-    height: 60px;
+    width: 100px; /* Ukuran logo */
+    height: 100px;
     object-fit: contain;
     transition: transform 0.4s ease-out;
 }
