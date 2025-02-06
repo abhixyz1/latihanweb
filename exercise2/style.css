@@ -162,7 +162,7 @@ a:hover {
   transition: transform 0.3s ease;
 }
 
-.section img:hover {
+.section img:hovexxxxxxxr {
   transform: scale(1.2);
 }
 
@@ -262,8 +262,9 @@ th {
 }
 
 .payment-logo img {
-  width: 100px;
-  height: 100px;
+  width: 100px; /* Sesuaikan ukuran sesuai kebutuhan */
+  height: 100px; /* Sesuaikan ukuran sesuai kebutuhan */
+  object-fit: contain; /* Memastikan gambar tidak terdistorsi */
   border-radius: 16px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
