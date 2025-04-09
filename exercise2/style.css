@@ -46,7 +46,7 @@ a:hover {
 .header {
   background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
   text-align: center;
-  padding: 6rem 1rem;
+  padding: 8rem 1rem; /* Increased padding for a more spacious feel */
   color: white;
   position: relative;
   overflow: hidden;
@@ -73,17 +73,15 @@ a:hover {
 }
 
 .header h1 {
-  font-size: 3rem;
+  font-size: 3.5rem; /* Increased font size for better impact */
   margin-bottom: 1rem;
   animation: slideIn 1s ease-in-out;
-  font-weight: 700;
 }
 
 .header p {
-  font-size: 1.25rem;
+  font-size: 1.5rem; /* Increased font size for better readability */
   color: #e0f2fe;
   animation: slideIn 1.2s ease-in-out;
-  font-weight: 400;
 }
 
 .header img {
@@ -162,7 +160,7 @@ a:hover {
   transition: transform 0.3s ease;
 }
 
-.section img:hovexxxxxxxr {
+.section img:hover {
   transform: scale(1.2);
 }
 
@@ -342,32 +340,4 @@ th {
       font-size: 2.5rem;
   }
 
-  .container {
-      grid-template-columns: 1fr;
-  }
-
-  .header {
-      padding: 4rem 1rem;
-  }
-
-  .header h1 {
-      font-size: 2.5rem;
-  }
-
-  .header p {
-      font-size: 1.1rem;
-  }
-
-  .section {
-      width: 100%;
-  }
-
-  .payment-logos {
-      gap: 2rem;
-  }
-
-  .payment-logo img {
-      width: 80px;
-      height: 80px;
-  }
-}
+  .
